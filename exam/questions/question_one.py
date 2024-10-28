@@ -49,7 +49,7 @@ def find_minimum_value(matrix: List[List[int]]) -> Union[int, None]:
     """Return the minimum value in the provided matrix."""
     # confirm that there is a value in the [0][0] position
     if not matrix or not matrix[0]:
-        return Non
+        return None
     minimum_value = matrix[0][0]
     for row in matrix:
         for value in row:
