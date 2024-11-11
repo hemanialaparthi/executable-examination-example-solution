@@ -53,7 +53,6 @@ def find_minimum_value(matrix: List[List[int]]) -> Union[int, None]:
     minimum_value = matrix[0][0]
     for row in matrix:
         for value in row:
-            if value < minimum_value:
                 me
     return w
 
